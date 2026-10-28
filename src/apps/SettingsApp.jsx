@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useTheme } from "../context/ThemeContext.jsx";
 
 // PHASE 2: the theme and wallpaper now come straight from the ThemeContext,
@@ -5,6 +6,10 @@ import { useTheme } from "../context/ThemeContext.jsx";
 export default function SettingsApp() {
   const { theme, setTheme, wallpaper, setWallpaper } = useTheme();
 
+=======
+
+export default function SettingsApp({ theme, onThemeChange, wallpaper, onWallpaperChange }) {
+>>>>>>> 4d9729251176607ff507a67f06a6704be63d7c05
   const wallpaperOptions = [
     { name: "Midnight", value: "#232842" },
     { name: "Ocean", value: "#123b52" },
@@ -25,7 +30,11 @@ export default function SettingsApp() {
                 type="radio"
                 name="theme"
                 checked={theme === "light"}
+<<<<<<< HEAD
                 onChange={() => setTheme("light")}
+=======
+                onChange={() => onThemeChange("light")}
+>>>>>>> 4d9729251176607ff507a67f06a6704be63d7c05
               />
               Light
             </label>
@@ -35,7 +44,11 @@ export default function SettingsApp() {
                 type="radio"
                 name="theme"
                 checked={theme === "dark"}
+<<<<<<< HEAD
                 onChange={() => setTheme("dark")}
+=======
+                onChange={() => onThemeChange("dark")}
+>>>>>>> 4d9729251176607ff507a67f06a6704be63d7c05
               />
               Dark
             </label>
@@ -56,7 +69,11 @@ export default function SettingsApp() {
                   (wallpaper === option.value ? "settings__swatch--active" : "")
                 }
                 style={{ backgroundColor: option.value }}
+<<<<<<< HEAD
                 onClick={() => setWallpaper(option.value)}
+=======
+                onClick={() => onWallpaperChange(option.value)}
+>>>>>>> 4d9729251176607ff507a67f06a6704be63d7c05
                 aria-label={"Set wallpaper to " + option.name}
               >
                 <span className="settings__swatch-label">{option.name}</span>

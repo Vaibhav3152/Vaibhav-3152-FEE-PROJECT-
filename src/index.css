@@ -23,10 +23,13 @@ button {
   cursor: pointer;
 }
 
+<<<<<<< HEAD
 /* -------------------------------------------------- */
 /* color variables for light and dark theme            */
 /* -------------------------------------------------- */
 
+=======
+>>>>>>> 4d9729251176607ff507a67f06a6704be63d7c05
 :root {
   --window-bg: #ffffff;
   --window-text: #1c1c1c;
@@ -47,11 +50,14 @@ button {
   --danger-color: #e6685c;
 }
 
+<<<<<<< HEAD
 /* -------------------------------------------------- */
 /* the desktop itself, mobile first: icons stack in a  */
 /* simple column, everything grows from there          */
 /* -------------------------------------------------- */
 
+=======
+>>>>>>> 4d9729251176607ff507a67f06a6704be63d7c05
 .desktop {
   position: relative;
   width: 100%;
@@ -63,8 +69,11 @@ button {
 .desktop__icons {
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD
   flex-wrap: wrap;
   height: calc(100vh - 130px);
+=======
+>>>>>>> 4d9729251176607ff507a67f06a6704be63d7c05
   gap: 12px;
   padding: 16px;
   width: fit-content;
@@ -106,9 +115,14 @@ button {
   }
 }
 
+<<<<<<< HEAD
 /* -------------------------------------------------- */
 /* windows                                             */
 /* -------------------------------------------------- */
+=======
+/* windows */
+
+>>>>>>> 4d9729251176607ff507a67f06a6704be63d7c05
 
 .window {
   position: absolute;
@@ -183,9 +197,13 @@ button {
   overflow: hidden;
 }
 
+<<<<<<< HEAD
 /* -------------------------------------------------- */
 /* taskbar                                             */
 /* -------------------------------------------------- */
+=======
+/* taskbar */
+>>>>>>> 4d9729251176607ff507a67f06a6704be63d7c05
 
 .taskbar {
   position: absolute;
@@ -232,10 +250,14 @@ button {
   white-space: nowrap;
 }
 
+<<<<<<< HEAD
 /* -------------------------------------------------- */
 /* shared app layout, used inside every window         */
 /* -------------------------------------------------- */
 
+=======
+/* shared app layout, used inside every window*/
+>>>>>>> 4d9729251176607ff507a67f06a6704be63d7c05
 .app {
   display: flex;
   flex-direction: column;
@@ -290,9 +312,13 @@ button {
   color: var(--danger-color);
 }
 
+<<<<<<< HEAD
 /* -------------------------------------------------- */
 /* buttons, inputs, and forms shared by the apps       */
 /* -------------------------------------------------- */
+=======
+/* buttons, inputs, and forms shared by the apps */
+>>>>>>> 4d9729251176607ff507a67f06a6704be63d7c05
 
 .btn {
   padding: 8px 14px;
@@ -368,9 +394,13 @@ button {
   font-size: 14px;
 }
 
+<<<<<<< HEAD
 /* -------------------------------------------------- */
 /* notes list                                          */
 /* -------------------------------------------------- */
+=======
+/* notes list */
+>>>>>>> 4d9729251176607ff507a67f06a6704be63d7c05
 
 .list {
   list-style: none;
@@ -407,9 +437,13 @@ button {
   word-break: break-word;
 }
 
+<<<<<<< HEAD
 /* -------------------------------------------------- */
 /* calculator                                          */
 /* -------------------------------------------------- */
+=======
+/* calculator */
+>>>>>>> 4d9729251176607ff507a67f06a6704be63d7c05
 
 .calculator {
   display: flex;
@@ -447,9 +481,13 @@ button {
   font-size: 16px;
 }
 
+<<<<<<< HEAD
 /* -------------------------------------------------- */
 /* settings                                            */
 /* -------------------------------------------------- */
+=======
+/* settings */
+>>>>>>> 4d9729251176607ff507a67f06a6704be63d7c05
 
 .settings__section {
   margin-bottom: 20px;
@@ -492,9 +530,13 @@ button {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
 
+<<<<<<< HEAD
 /* -------------------------------------------------- */
 /* terminal                                            */
 /* -------------------------------------------------- */
+=======
+/* terminal */
+>>>>>>> 4d9729251176607ff507a67f06a6704be63d7c05
 
 .terminal {
   background: #10121c;
@@ -538,9 +580,13 @@ button {
   outline: none;
 }
 
+<<<<<<< HEAD
 /* -------------------------------------------------- */
 /* help                                                */
 /* -------------------------------------------------- */
+=======
+/* help */
+>>>>>>> 4d9729251176607ff507a67f06a6704be63d7c05
 
 .help__list {
   list-style: none;

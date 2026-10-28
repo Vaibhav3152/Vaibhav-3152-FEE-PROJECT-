@@ -1,6 +1,9 @@
 import { useState } from "react";
 
+<<<<<<< HEAD
 // a pretend terminal, it only understands a handful of commands
+=======
+>>>>>>> 4d9729251176607ff507a67f06a6704be63d7c05
 export default function TerminalApp({ onOpenApp }) {
   const [history, setHistory] = useState([
     { input: null, output: "Welcome to Nebula OS terminal. Type help to see what you can do." },

@@ -22,28 +22,42 @@ const topics = [
     text: "Minimized or open apps show up in the taskbar at the bottom of the screen. Click on one to bring it back.",
   },
   {
+<<<<<<< HEAD
     title: "Shop, Movies, Register, Dashboard",
     text: "These apps open in windows too, and show up in the taskbar. Each one has its own pages and the address bar follows the window you are using.",
   },
   {
+=======
+>>>>>>> 4d9729251176607ff507a67f06a6704be63d7c05
     title: "Terminal commands",
     text: "Open the Terminal app and type help to see the list of commands it understands.",
   },
 ];
 
+<<<<<<< HEAD
 // a simple accordion style help list, click a question to open the answer
+=======
+>>>>>>> 4d9729251176607ff507a67f06a6704be63d7c05
 export default function HelpApp() {
   const [openTopic, setOpenTopic] = useState(0);
 
   const toggleTopic = (index) => {
     setOpenTopic(openTopic === index ? -1 : index);
+<<<<<<< HEAD
   };
+=======
+  };        
+>>>>>>> 4d9729251176607ff507a67f06a6704be63d7c05
 
   return (
     <div className="app">
       <div className="app__main scroll help">
         <h3>Nebula OS Help</h3>
+<<<<<<< HEAD
         <p className="hint">A quick guide to getting around.</p>
+=======
+       
+>>>>>>> 4d9729251176607ff507a67f06a6704be63d7c05
 
         <ul className="help__list">
           {topics.map((topic, index) => (

@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+<<<<<<< HEAD
 import { BrowserRouter } from "react-router-dom";
 import App from "./App.jsx";
 import { ThemeProvider } from "./context/ThemeContext.jsx";
@@ -21,5 +22,13 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         </ToastProvider>
       </ThemeProvider>
     </BrowserRouter>
+=======
+import App from "./App.jsx";
+import "./index.css";
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <App />
+>>>>>>> 4d9729251176607ff507a67f06a6704be63d7c05
   </React.StrictMode>
 );

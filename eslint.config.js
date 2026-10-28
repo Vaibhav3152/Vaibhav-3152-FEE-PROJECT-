@@ -36,9 +36,12 @@ export default [
       "no-unused-vars": ["warn", { varsIgnorePattern: "^[A-Z_]" }],
     },
   },
+<<<<<<< HEAD
   {
     // context files export a Provider component AND a hook on purpose
     files: ["src/context/**"],
     rules: { "react-refresh/only-export-components": "off" },
   },
+=======
+>>>>>>> 4d9729251176607ff507a67f06a6704be63d7c05
 ];

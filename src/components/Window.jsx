@@ -1,8 +1,12 @@
 import { useRef } from "react";
 
+<<<<<<< HEAD
 // this component is just the window "frame": the title bar with
 // buttons, and a box for whatever app is rendered inside it.
 // dragging is done with plain mouse events, nothing fancy.
+=======
+
+>>>>>>> 4d9729251176607ff507a67f06a6704be63d7c05
 export default function Window({ win, onClose, onMinimize, onMaximize, onFocus, onMove, children }) {
   const dragInfo = useRef(null);
 
